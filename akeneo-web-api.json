@@ -8,6 +8,12 @@
       {
         "url": "http://recette-akeneo.focal.com/",
         "description": "Akeneo API recipe server."
+      },
+      {
+        "url": "https://mingle-integ02-ionapi.mingle.awsdev.infor.com/FOCAL_TST/b854c009-ee3e-463c-b61b-75f1daa6dffe/wms-pelt-test/public"
+      },
+      {
+        "url": "https://mingle-portal.eu1.inforcloudsuite.com/FOCAL_TST/b854c009-ee3e-463c-b61b-75f1daa6dffe/wms-pelt-test/public"
       }
     ],
     "host": "recette-akeneo.focal.com",
