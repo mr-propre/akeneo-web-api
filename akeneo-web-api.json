@@ -4,7 +4,13 @@
       "title": "Akeneo PIM API",
       "version": "1.0.0"
     },
-    "host": "demo.akeneo.com",
+    "servers": [
+      {
+        "url": "http://recette-akeneo.focal.com//",
+        "description": "Akeneo API recipe server."
+      }
+    ],
+    "host": "recette-akeneo.focal.com",
     "schemes": [
       "http"
     ],
