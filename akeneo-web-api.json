@@ -6,7 +6,7 @@
     },
     "servers": [
       {
-        "url": "http://recette-akeneo.focal.com//",
+        "url": "http://recette-akeneo.focal.com/",
         "description": "Akeneo API recipe server."
       }
     ],
