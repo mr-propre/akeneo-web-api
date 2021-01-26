@@ -13,7 +13,7 @@
         "url": "https://mingle-integ02-ionapi.mingle.awsdev.infor.com/FOCAL_TST/b854c009-ee3e-463c-b61b-75f1daa6dffe/wms-pelt-test/public"
       },
       {
-        "url": "https://mingle-portal.eu1.inforcloudsuite.com/FOCAL_TST/b854c009-ee3e-463c-b61b-75f1daa6dffe/wms-pelt-test/public"
+        "url": "https://mingle-ionapi.eu1.inforcloudsuite.com/FOCAL_TST/CustomerApi/pim/akeneo"
       }
     ],
     "host": "recette-akeneo.focal.com",
