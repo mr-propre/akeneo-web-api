@@ -249,8 +249,7 @@
                                       "type": "string",
                                       "description": "Code of the parent product model when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                                       "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                                      "default": "",
-                                      "nullable": true
+                                      "default": ""
                                     },
                                     "values": {
                                       "type": "object",
@@ -1062,8 +1061,7 @@
                     "type": "string",
                     "description": "Code of the parent product model when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                     "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                    "default": "",
-                    "nullable": true
+                    "default": ""
                   },
                   "values": {
                     "type": "object",
@@ -1578,8 +1576,7 @@
                     "type": "string",
                     "description": "Code of the parent product model when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                     "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                    "default": "",
-                    "nullable": true
+                    "default": ""
                   },
                   "values": {
                     "type": "object",
@@ -2114,8 +2111,7 @@
                     "type": "string",
                     "description": "Code of the parent product model when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                     "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                    "default": "",
-                    "nullable": true
+                    "default": ""
                   },
                   "values": {
                     "type": "object",
@@ -2594,8 +2590,7 @@
                     "type": "string",
                     "description": "Code of the parent product model when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                     "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                    "default": "",
-                    "nullable": true
+                    "default": ""
                   },
                   "values": {
                     "type": "object",
@@ -3324,8 +3319,7 @@
                     "type": "string",
                     "description": "Code of the parent product model when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                     "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                    "default": "",
-                    "nullable": true
+                    "default": ""
                   },
                   "values": {
                     "type": "object",
@@ -3941,8 +3935,7 @@
                                       "type": "string",
                                       "description": "Code of the parent product model. This parent can be modified since the 2.3.",
                                       "x-validation-rules": "&bull; It is equal to an existing product model code&#10;&bull; This product model has the same family variant as the one given in the `family_variant field`",
-                                      "default": "",
-                                      "nullable": true
+                                      "default": ""
                                     },
                                     "categories": {
                                       "type": "array",
@@ -4489,8 +4482,7 @@
                     "type": "string",
                     "description": "Code of the parent product model. This parent can be modified since the 2.3.",
                     "x-validation-rules": "&bull; It is equal to an existing product model code&#10;&bull; This product model has the same family variant as the one given in the `family_variant field`",
-                    "default": "",
-                    "nullable": true
+                    "default": ""
                   },
                   "categories": {
                     "type": "array",
@@ -4877,8 +4869,7 @@
                     "type": "string",
                     "description": "Code of the parent product model. This parent can be modified since the 2.3.",
                     "x-validation-rules": "&bull; It is equal to an existing product model code&#10;&bull; This product model has the same family variant as the one given in the `family_variant field`",
-                    "default": "",
-                    "nullable": true
+                    "default": ""
                   },
                   "categories": {
                     "type": "array",
@@ -5290,8 +5281,7 @@
                     "type": "string",
                     "description": "Code of the parent product model. This parent can be modified since the 2.3.",
                     "x-validation-rules": "&bull; It is equal to an existing product model code&#10;&bull; This product model has the same family variant as the one given in the `family_variant field`",
-                    "default": "",
-                    "nullable": true
+                    "default": ""
                   },
                   "categories": {
                     "type": "array",
@@ -5642,8 +5632,7 @@
                     "type": "string",
                     "description": "Code of the parent product model. This parent can be modified since the 2.3.",
                     "x-validation-rules": "&bull; It is equal to an existing product model code&#10;&bull; This product model has the same family variant as the one given in the `family_variant field`",
-                    "default": "",
-                    "nullable": true
+                    "default": ""
                   },
                   "categories": {
                     "type": "array",
@@ -6152,8 +6141,7 @@
                     "type": "string",
                     "description": "Code of the parent product model. This parent can be modified since the 2.3.",
                     "x-validation-rules": "&bull; It is equal to an existing product model code&#10;&bull; This product model has the same family variant as the one given in the `family_variant field`",
-                    "default": "",
-                    "nullable": true
+                    "default": ""
                   },
                   "categories": {
                     "type": "array",
@@ -6670,8 +6658,7 @@
                                       "type": "string",
                                       "description": "Family code from which the published product inherits its attributes and attributes requirements",
                                       "x-validation-rules": "It is equal to an existing family code",
-                                      "default": "",
-                                      "nullable": true
+                                      "default": ""
                                     },
                                     "categories": {
                                       "type": "array",
@@ -7236,8 +7223,7 @@
                     "type": "string",
                     "description": "Family code from which the published product inherits its attributes and attributes requirements",
                     "x-validation-rules": "It is equal to an existing family code",
-                    "default": "",
-                    "nullable": true
+                    "default": ""
                   },
                   "categories": {
                     "type": "array",
@@ -8450,8 +8436,7 @@
                                       "type": "string",
                                       "description": "Attribute code used as the main picture in the user interface (only since v2.0)",
                                       "x-validation-rules": "&bull; It is equal to an existing attribute code &#10;&bull; This attribute code is in the array of the property `attributes` &#10;&bull; The type of this attribute is `pim_catalog_image`. Since v2.1, you can also use a `pim_assets_collection` attribute type",
-                                      "default": "",
-                                      "nullable": true
+                                      "default": ""
                                     },
                                     "attributes": {
                                       "type": "array",
@@ -8733,8 +8718,7 @@
                     "type": "string",
                     "description": "Attribute code used as the main picture in the user interface (only since v2.0)",
                     "x-validation-rules": "&bull; It is equal to an existing attribute code &#10;&bull; This attribute code is in the array of the property `attributes` &#10;&bull; The type of this attribute is `pim_catalog_image`. Since v2.1, you can also use a `pim_assets_collection` attribute type",
-                    "default": "",
-                    "nullable": true
+                    "default": ""
                   },
                   "attributes": {
                     "type": "array",
@@ -8975,8 +8959,7 @@
                     "type": "string",
                     "description": "Attribute code used as the main picture in the user interface (only since v2.0)",
                     "x-validation-rules": "&bull; It is equal to an existing attribute code &#10;&bull; This attribute code is in the array of the property `attributes` &#10;&bull; The type of this attribute is `pim_catalog_image`. Since v2.1, you can also use a `pim_assets_collection` attribute type",
-                    "default": "",
-                    "nullable": true
+                    "default": ""
                   },
                   "attributes": {
                     "type": "array",
@@ -9221,8 +9204,7 @@
                     "type": "string",
                     "description": "Attribute code used as the main picture in the user interface (only since v2.0)",
                     "x-validation-rules": "&bull; It is equal to an existing attribute code &#10;&bull; This attribute code is in the array of the property `attributes` &#10;&bull; The type of this attribute is `pim_catalog_image`. Since v2.1, you can also use a `pim_assets_collection` attribute type",
-                    "default": "",
-                    "nullable": true
+                    "default": ""
                   },
                   "attributes": {
                     "type": "array",
@@ -9427,8 +9409,7 @@
                     "type": "string",
                     "description": "Attribute code used as the main picture in the user interface (only since v2.0)",
                     "x-validation-rules": "&bull; It is equal to an existing attribute code &#10;&bull; This attribute code is in the array of the property `attributes` &#10;&bull; The type of this attribute is `pim_catalog_image`. Since v2.1, you can also use a `pim_assets_collection` attribute type",
-                    "default": "",
-                    "nullable": true
+                    "default": ""
                   },
                   "attributes": {
                     "type": "array",
@@ -18089,8 +18070,7 @@
                                       "type": "string",
                                       "description": "Category code of the parent's category",
                                       "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself.",
-                                      "default": "",
-                                      "nullable": true
+                                      "default": ""
                                     },
                                     "labels": {
                                       "type": "object",
@@ -18313,8 +18293,7 @@
                     "type": "string",
                     "description": "Category code of the parent's category",
                     "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself.",
-                    "default": "",
-                    "nullable": true
+                    "default": ""
                   },
                   "labels": {
                     "type": "object",
@@ -18502,8 +18481,7 @@
                     "type": "string",
                     "description": "Category code of the parent's category",
                     "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself.",
-                    "default": "",
-                    "nullable": true
+                    "default": ""
                   },
                   "labels": {
                     "type": "object",
@@ -18695,8 +18673,7 @@
                     "type": "string",
                     "description": "Category code of the parent's category",
                     "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself.",
-                    "default": "",
-                    "nullable": true
+                    "default": ""
                   },
                   "labels": {
                     "type": "object",
@@ -18848,8 +18825,7 @@
                     "type": "string",
                     "description": "Category code of the parent's category",
                     "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself.",
-                    "default": "",
-                    "nullable": true
+                    "default": ""
                   },
                   "labels": {
                     "type": "object",
@@ -30958,8 +30934,7 @@
                                       "type": "string",
                                       "description": "PAM ssset category code of the parent's asset category",
                                       "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself.",
-                                      "default": "",
-                                      "nullable": true
+                                      "default": ""
                                     },
                                     "labels": {
                                       "type": "object",
@@ -31155,8 +31130,7 @@
                     "type": "string",
                     "description": "PAM ssset category code of the parent's asset category",
                     "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself.",
-                    "default": "",
-                    "nullable": true
+                    "default": ""
                   },
                   "labels": {
                     "type": "object",
@@ -31345,8 +31319,7 @@
                     "type": "string",
                     "description": "PAM ssset category code of the parent's asset category",
                     "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself.",
-                    "default": "",
-                    "nullable": true
+                    "default": ""
                   },
                   "labels": {
                     "type": "object",
@@ -31539,8 +31512,7 @@
                     "type": "string",
                     "description": "PAM ssset category code of the parent's asset category",
                     "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself.",
-                    "default": "",
-                    "nullable": true
+                    "default": ""
                   },
                   "labels": {
                     "type": "object",
@@ -31693,8 +31665,7 @@
                     "type": "string",
                     "description": "PAM ssset category code of the parent's asset category",
                     "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself.",
-                    "default": "",
-                    "nullable": true
+                    "default": ""
                   },
                   "labels": {
                     "type": "object",
@@ -32748,8 +32719,7 @@
             "type": "string",
             "description": "Code of the parent product model when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
             "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-            "default": "",
-            "nullable": true
+            "default": ""
           },
           "values": {
             "type": "object",
@@ -33137,8 +33107,7 @@
                 "type": "string",
                 "description": "Code of the parent product model when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                 "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                "default": "",
-                "nullable": true
+                "default": ""
               },
               "values": {
                 "type": "object",
@@ -33491,8 +33460,7 @@
             "type": "string",
             "description": "Code of the parent product model. This parent can be modified since the 2.3.",
             "x-validation-rules": "&bull; It is equal to an existing product model code&#10;&bull; This product model has the same family variant as the one given in the `family_variant field`",
-            "default": "",
-            "nullable": true
+            "default": ""
           },
           "categories": {
             "type": "array",
@@ -33774,8 +33742,7 @@
                 "type": "string",
                 "description": "Code of the parent product model. This parent can be modified since the 2.3.",
                 "x-validation-rules": "&bull; It is equal to an existing product model code&#10;&bull; This product model has the same family variant as the one given in the `family_variant field`",
-                "default": "",
-                "nullable": true
+                "default": ""
               },
               "categories": {
                 "type": "array",
@@ -34028,8 +33995,7 @@
             "type": "string",
             "description": "Family code from which the published product inherits its attributes and attributes requirements",
             "x-validation-rules": "It is equal to an existing family code",
-            "default": "",
-            "nullable": true
+            "default": ""
           },
           "categories": {
             "type": "array",
@@ -34251,8 +34217,7 @@
                 "type": "string",
                 "description": "Family code from which the published product inherits its attributes and attributes requirements",
                 "x-validation-rules": "It is equal to an existing family code",
-                "default": "",
-                "nullable": true
+                "default": ""
               },
               "categories": {
                 "type": "array",
@@ -35179,8 +35144,7 @@
             "type": "string",
             "description": "Category code of the parent's category",
             "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself.",
-            "default": "",
-            "nullable": true
+            "default": ""
           },
           "labels": {
             "type": "object",
@@ -35241,8 +35205,7 @@
                 "type": "string",
                 "description": "Category code of the parent's category",
                 "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself.",
-                "default": "",
-                "nullable": true
+                "default": ""
               },
               "labels": {
                 "type": "object",
@@ -35721,8 +35684,7 @@
             "type": "string",
             "description": "Attribute code used as the main picture in the user interface (only since v2.0)",
             "x-validation-rules": "&bull; It is equal to an existing attribute code &#10;&bull; This attribute code is in the array of the property `attributes` &#10;&bull; The type of this attribute is `pim_catalog_image`. Since v2.1, you can also use a `pim_assets_collection` attribute type",
-            "default": "",
-            "nullable": true
+            "default": ""
           },
           "attributes": {
             "type": "array",
@@ -35836,8 +35798,7 @@
                 "type": "string",
                 "description": "Attribute code used as the main picture in the user interface (only since v2.0)",
                 "x-validation-rules": "&bull; It is equal to an existing attribute code &#10;&bull; This attribute code is in the array of the property `attributes` &#10;&bull; The type of this attribute is `pim_catalog_image`. Since v2.1, you can also use a `pim_assets_collection` attribute type",
-                "default": "",
-                "nullable": true
+                "default": ""
               },
               "attributes": {
                 "type": "array",
@@ -38846,8 +38807,7 @@
             "type": "string",
             "description": "PAM ssset category code of the parent's asset category",
             "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself.",
-            "default": "",
-            "nullable": true
+            "default": ""
           },
           "labels": {
             "type": "object",
@@ -38908,8 +38868,7 @@
                 "type": "string",
                 "description": "PAM ssset category code of the parent's asset category",
                 "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself.",
-                "default": "",
-                "nullable": true
+                "default": ""
               },
               "labels": {
                 "type": "object",
