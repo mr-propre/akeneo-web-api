@@ -20615,8 +20615,9 @@
                                   },
                                   "image": {
                                     "type": "string",
+                                    "nullable": true,
                                     "description": "Code of the reference entity image",
-                                    "default": "null"
+                                    "default": null
                                   }
                                 },
                                 "example": {
@@ -20817,8 +20818,9 @@
                     },
                     "image": {
                       "type": "string",
+                      "nullable": true,
                       "description": "Code of the reference entity image",
-                      "default": "null"
+                      "default": null
                     }
                   },
                   "example": {
@@ -20961,8 +20963,9 @@
                 },
                 "image": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Code of the reference entity image",
-                  "default": "null"
+                  "default": null
                 }
               },
               "example": {
@@ -21183,8 +21186,9 @@
                   },
                   "validation_regexp": {
                     "type": "string",
+                    "nullable": true,
                     "description": "Regexp expression used to validate the attribute value when the attribute type is `text`",
-                    "default": "null",
+                    "default": null,
                     "x-validation-rules": "Required when the property `validation_rule` is equal to `regexp`",
                     "x-warning": "Only for `text` attribute type"
                   },
@@ -21199,14 +21203,16 @@
                   },
                   "max_file_size": {
                     "type": "string",
+                    "nullable": true,
                     "description": "Max file size in MB when the attribute type is `image`",
-                    "default": "null",
+                    "default": null,
                     "x-warning": "Only for `image` attribute type"
                   },
                   "reference_entity_code": {
                     "type": "string",
+                    "nullable": true,
                     "description": "Code of the linked reference entity when the attribute type is `reference_entity_single_link` or `reference_entity_multiple_links`",
-                    "default": "null",
+                    "default": null,
                     "x-validation-rules": "Required when the attribute type is either `reference_entity_single_link` or `reference_entity_multiple_links`",
                     "x-warning": "Only for `reference_entity_single_link` and `reference_entity_multiple_links` attribute type",
                     "x-immutable": true
@@ -21219,15 +21225,17 @@
                   },
                   "min_value": {
                     "type": "string",
+                    "nullable": true,
                     "description": "Minimum value allowed when the attribute type is `number`",
-                    "default": "null",
+                    "default": null,
                     "x-validation-rules": "The minimum value must be lower than the maximum value",
                     "x-warning": "Only for `number` attribute type"
                   },
                   "max_value": {
                     "type": "string",
+                    "nullable": true,
                     "description": "Maximum value allowed when the attribute type is `number`",
-                    "default": "null",
+                    "default": null,
                     "x-validation-rules": "The maximum value must be greater than the minimum value",
                     "x-warning": "Only for `number` attribute type"
                   }
@@ -21474,8 +21482,9 @@
                 },
                 "validation_regexp": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Regexp expression used to validate the attribute value when the attribute type is `text`",
-                  "default": "null",
+                  "default": null,
                   "x-validation-rules": "Required when the property `validation_rule` is equal to `regexp`",
                   "x-warning": "Only for `text` attribute type"
                 },
@@ -21490,14 +21499,16 @@
                 },
                 "max_file_size": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Max file size in MB when the attribute type is `image`",
-                  "default": "null",
+                  "default": null,
                   "x-warning": "Only for `image` attribute type"
                 },
                 "reference_entity_code": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Code of the linked reference entity when the attribute type is `reference_entity_single_link` or `reference_entity_multiple_links`",
-                  "default": "null",
+                  "default": null,
                   "x-validation-rules": "Required when the attribute type is either `reference_entity_single_link` or `reference_entity_multiple_links`",
                   "x-warning": "Only for `reference_entity_single_link` and `reference_entity_multiple_links` attribute type",
                   "x-immutable": true
@@ -21510,15 +21521,17 @@
                 },
                 "min_value": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Minimum value allowed when the attribute type is `number`",
-                  "default": "null",
+                  "default": null,
                   "x-validation-rules": "The minimum value must be lower than the maximum value",
                   "x-warning": "Only for `number` attribute type"
                 },
                 "max_value": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Maximum value allowed when the attribute type is `number`",
-                  "default": "null",
+                  "default": null,
                   "x-validation-rules": "The maximum value must be greater than the minimum value",
                   "x-warning": "Only for `number` attribute type"
                 }
@@ -21724,8 +21737,9 @@
                 },
                 "validation_regexp": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Regexp expression used to validate the attribute value when the attribute type is `text`",
-                  "default": "null",
+                  "default": null,
                   "x-validation-rules": "Required when the property `validation_rule` is equal to `regexp`",
                   "x-warning": "Only for `text` attribute type"
                 },
@@ -21740,14 +21754,16 @@
                 },
                 "max_file_size": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Max file size in MB when the attribute type is `image`",
-                  "default": "null",
+                  "default": null,
                   "x-warning": "Only for `image` attribute type"
                 },
                 "reference_entity_code": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Code of the linked reference entity when the attribute type is `reference_entity_single_link` or `reference_entity_multiple_links`",
-                  "default": "null",
+                  "default": null,
                   "x-validation-rules": "Required when the attribute type is either `reference_entity_single_link` or `reference_entity_multiple_links`",
                   "x-warning": "Only for `reference_entity_single_link` and `reference_entity_multiple_links` attribute type",
                   "x-immutable": true
@@ -21760,15 +21776,17 @@
                 },
                 "min_value": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Minimum value allowed when the attribute type is `number`",
-                  "default": "null",
+                  "default": null,
                   "x-validation-rules": "The minimum value must be lower than the maximum value",
                   "x-warning": "Only for `number` attribute type"
                 },
                 "max_value": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Maximum value allowed when the attribute type is `number`",
-                  "default": "null",
+                  "default": null,
                   "x-validation-rules": "The maximum value must be greater than the minimum value",
                   "x-warning": "Only for `number` attribute type"
                 }
@@ -25228,8 +25246,9 @@
                   },
                   "validation_regexp": {
                     "type": "string",
+                    "nullable": true,
                     "description": "Regexp expression used to validate the attribute value when the attribute type is `text`",
-                    "default": "null",
+                    "default": null,
                     "x-validation-rules": "Required when the property `validation_rule` is equal to `regexp`",
                     "x-warning": "Only for `text` attribute type"
                   },
@@ -25244,8 +25263,9 @@
                   },
                   "max_file_size": {
                     "type": "string",
+                    "nullable": true,
                     "description": "Max file size in MB when the attribute type is `media_file`",
-                    "default": "null",
+                    "default": null,
                     "x-warning": "Only for `media_file` attribute type"
                   },
                   "decimals_allowed": {
@@ -25256,15 +25276,17 @@
                   },
                   "min_value": {
                     "type": "string",
+                    "nullable": true,
                     "description": "Minimum value allowed when the attribute type is `number`",
-                    "default": "null",
+                    "default": null,
                     "x-validation-rules": "The minimum value must be lower than the maximum value",
                     "x-warning": "Only for `number` attribute type"
                   },
                   "max_value": {
                     "type": "string",
+                    "nullable": true,
                     "description": "Maximum value allowed when the attribute type is `number`",
-                    "default": "null",
+                    "default": null,
                     "x-validation-rules": "The maximum value must be greater than the minimum value",
                     "x-warning": "Only for `number` attribute type"
                   },
@@ -25282,14 +25304,16 @@
                   },
                   "prefix": {
                     "type": "string",
+                    "nullable": true,
                     "description": "Prefix of the `media_link` attribute type. The common url root that prefixes the link to the media",
-                    "default": "null",
+                    "default": null,
                     "x-warning": "Only for `media_link` attribute type"
                   },
                   "suffix": {
                     "type": "string",
+                    "nullable": true,
                     "description": "Suffix of the `media_link` attribute type. The common url suffix for the media",
-                    "default": "null",
+                    "default": null,
                     "x-warning": "Only for `media_link` attribute type"
                   }
                 },
@@ -25522,8 +25546,9 @@
                 },
                 "validation_regexp": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Regexp expression used to validate the attribute value when the attribute type is `text`",
-                  "default": "null",
+                  "default": null,
                   "x-validation-rules": "Required when the property `validation_rule` is equal to `regexp`",
                   "x-warning": "Only for `text` attribute type"
                 },
@@ -25538,8 +25563,9 @@
                 },
                 "max_file_size": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Max file size in MB when the attribute type is `media_file`",
-                  "default": "null",
+                  "default": null,
                   "x-warning": "Only for `media_file` attribute type"
                 },
                 "decimals_allowed": {
@@ -25550,15 +25576,17 @@
                 },
                 "min_value": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Minimum value allowed when the attribute type is `number`",
-                  "default": "null",
+                  "default": null,
                   "x-validation-rules": "The minimum value must be lower than the maximum value",
                   "x-warning": "Only for `number` attribute type"
                 },
                 "max_value": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Maximum value allowed when the attribute type is `number`",
-                  "default": "null",
+                  "default": null,
                   "x-validation-rules": "The maximum value must be greater than the minimum value",
                   "x-warning": "Only for `number` attribute type"
                 },
@@ -25576,14 +25604,16 @@
                 },
                 "prefix": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Prefix of the `media_link` attribute type. The common url root that prefixes the link to the media",
-                  "default": "null",
+                  "default": null,
                   "x-warning": "Only for `media_link` attribute type"
                 },
                 "suffix": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Suffix of the `media_link` attribute type. The common url suffix for the media",
-                  "default": "null",
+                  "default": null,
                   "x-warning": "Only for `media_link` attribute type"
                 }
               },
@@ -25790,8 +25820,9 @@
                 },
                 "validation_regexp": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Regexp expression used to validate the attribute value when the attribute type is `text`",
-                  "default": "null",
+                  "default": null,
                   "x-validation-rules": "Required when the property `validation_rule` is equal to `regexp`",
                   "x-warning": "Only for `text` attribute type"
                 },
@@ -25806,8 +25837,9 @@
                 },
                 "max_file_size": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Max file size in MB when the attribute type is `media_file`",
-                  "default": "null",
+                  "default": null,
                   "x-warning": "Only for `media_file` attribute type"
                 },
                 "decimals_allowed": {
@@ -25818,15 +25850,17 @@
                 },
                 "min_value": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Minimum value allowed when the attribute type is `number`",
-                  "default": "null",
+                  "default": null,
                   "x-validation-rules": "The minimum value must be lower than the maximum value",
                   "x-warning": "Only for `number` attribute type"
                 },
                 "max_value": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Maximum value allowed when the attribute type is `number`",
-                  "default": "null",
+                  "default": null,
                   "x-validation-rules": "The maximum value must be greater than the minimum value",
                   "x-warning": "Only for `number` attribute type"
                 },
@@ -25844,14 +25878,16 @@
                 },
                 "prefix": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Prefix of the `media_link` attribute type. The common url root that prefixes the link to the media",
-                  "default": "null",
+                  "default": null,
                   "x-warning": "Only for `media_link` attribute type"
                 },
                 "suffix": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Suffix of the `media_link` attribute type. The common url suffix for the media",
-                  "default": "null",
+                  "default": null,
                   "x-warning": "Only for `media_link` attribute type"
                 }
               },
@@ -28026,8 +28062,9 @@
                                   },
                                   "description": {
                                     "type": "string",
+                                    "nullable": true,
                                     "description": "Description of the PAM asset",
-                                    "default": "null"
+                                    "default": null
                                   },
                                   "localizable": {
                                     "type": "boolean",
@@ -28045,9 +28082,10 @@
                                   },
                                   "end_of_use": {
                                     "type": "string",
+                                    "nullable": true,
                                     "description": "Date on which the PAM asset expire",
                                     "format": "dateTime",
-                                    "default": "null",
+                                    "default": null,
                                     "x-validation-rules": "The date follows the ISO 8601 format"
                                   },
                                   "variation_files": {
@@ -28501,8 +28539,9 @@
                 },
                 "description": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Description of the PAM asset",
-                  "default": "null"
+                  "default": null
                 },
                 "localizable": {
                   "type": "boolean",
@@ -28520,9 +28559,10 @@
                 },
                 "end_of_use": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Date on which the PAM asset expire",
                   "format": "dateTime",
-                  "default": "null",
+                  "default": null,
                   "x-validation-rules": "The date follows the ISO 8601 format"
                 },
                 "variation_files": {
@@ -28843,8 +28883,9 @@
                 },
                 "description": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Description of the PAM asset",
-                  "default": "null"
+                  "default": null
                 },
                 "localizable": {
                   "type": "boolean",
@@ -28862,9 +28903,10 @@
                 },
                 "end_of_use": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Date on which the PAM asset expire",
                   "format": "dateTime",
-                  "default": "null",
+                  "default": null,
                   "x-validation-rules": "The date follows the ISO 8601 format"
                 },
                 "variation_files": {
@@ -29189,8 +29231,9 @@
                 },
                 "description": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Description of the PAM asset",
-                  "default": "null"
+                  "default": null
                 },
                 "localizable": {
                   "type": "boolean",
@@ -29208,9 +29251,10 @@
                 },
                 "end_of_use": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Date on which the PAM asset expire",
                   "format": "dateTime",
-                  "default": "null",
+                  "default": null,
                   "x-validation-rules": "The date follows the ISO 8601 format"
                 },
                 "variation_files": {
@@ -29495,8 +29539,9 @@
                 },
                 "description": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Description of the PAM asset",
-                  "default": "null"
+                  "default": null
                 },
                 "localizable": {
                   "type": "boolean",
@@ -29514,9 +29559,10 @@
                 },
                 "end_of_use": {
                   "type": "string",
+                  "nullable": true,
                   "description": "Date on which the PAM asset expire",
                   "format": "dateTime",
-                  "default": "null",
+                  "default": null,
                   "x-validation-rules": "The date follows the ISO 8601 format"
                 },
                 "variation_files": {
@@ -34448,8 +34494,9 @@
             },
             "image": {
               "type": "string",
+              "nullable": true,
               "description": "Code of the reference entity image",
-              "default": "null"
+              "default": null
             }
           },
           "example": {
@@ -34532,8 +34579,9 @@
             },
             "image": {
               "type": "string",
+              "nullable": true,
               "description": "Code of the reference entity image",
-              "default": "null"
+              "default": null
             }
           },
           "example": {
@@ -34633,8 +34681,9 @@
         },
         "validation_regexp": {
           "type": "string",
+          "nullable": true,
           "description": "Regexp expression used to validate the attribute value when the attribute type is `text`",
-          "default": "null",
+          "default": null,
           "x-validation-rules": "Required when the property `validation_rule` is equal to `regexp`",
           "x-warning": "Only for `text` attribute type"
         },
@@ -34649,14 +34698,16 @@
         },
         "max_file_size": {
           "type": "string",
+          "nullable": true,
           "description": "Max file size in MB when the attribute type is `image`",
-          "default": "null",
+          "default": null,
           "x-warning": "Only for `image` attribute type"
         },
         "reference_entity_code": {
           "type": "string",
+          "nullable": true,
           "description": "Code of the linked reference entity when the attribute type is `reference_entity_single_link` or `reference_entity_multiple_links`",
-          "default": "null",
+          "default": null,
           "x-validation-rules": "Required when the attribute type is either `reference_entity_single_link` or `reference_entity_multiple_links`",
           "x-warning": "Only for `reference_entity_single_link` and `reference_entity_multiple_links` attribute type",
           "x-immutable": true
@@ -34669,15 +34720,17 @@
         },
         "min_value": {
           "type": "string",
+          "nullable": true,
           "description": "Minimum value allowed when the attribute type is `number`",
-          "default": "null",
+          "default": null,
           "x-validation-rules": "The minimum value must be lower than the maximum value",
           "x-warning": "Only for `number` attribute type"
         },
         "max_value": {
           "type": "string",
+          "nullable": true,
           "description": "Maximum value allowed when the attribute type is `number`",
-          "default": "null",
+          "default": null,
           "x-validation-rules": "The maximum value must be greater than the minimum value",
           "x-warning": "Only for `number` attribute type"
         }
@@ -34787,8 +34840,9 @@
           },
           "validation_regexp": {
             "type": "string",
+            "nullable": true,
             "description": "Regexp expression used to validate the attribute value when the attribute type is `text`",
-            "default": "null",
+            "default": null,
             "x-validation-rules": "Required when the property `validation_rule` is equal to `regexp`",
             "x-warning": "Only for `text` attribute type"
           },
@@ -34803,14 +34857,16 @@
           },
           "max_file_size": {
             "type": "string",
+            "nullable": true,
             "description": "Max file size in MB when the attribute type is `image`",
-            "default": "null",
+            "default": null,
             "x-warning": "Only for `image` attribute type"
           },
           "reference_entity_code": {
             "type": "string",
+            "nullable": true,
             "description": "Code of the linked reference entity when the attribute type is `reference_entity_single_link` or `reference_entity_multiple_links`",
-            "default": "null",
+            "default": null,
             "x-validation-rules": "Required when the attribute type is either `reference_entity_single_link` or `reference_entity_multiple_links`",
             "x-warning": "Only for `reference_entity_single_link` and `reference_entity_multiple_links` attribute type",
             "x-immutable": true
@@ -34823,15 +34879,17 @@
           },
           "min_value": {
             "type": "string",
+            "nullable": true,
             "description": "Minimum value allowed when the attribute type is `number`",
-            "default": "null",
+            "default": null,
             "x-validation-rules": "The minimum value must be lower than the maximum value",
             "x-warning": "Only for `number` attribute type"
           },
           "max_value": {
             "type": "string",
+            "nullable": true,
             "description": "Maximum value allowed when the attribute type is `number`",
-            "default": "null",
+            "default": null,
             "x-validation-rules": "The maximum value must be greater than the minimum value",
             "x-warning": "Only for `number` attribute type"
           }
@@ -37825,8 +37883,9 @@
           },
           "validation_regexp": {
             "type": "string",
+            "nullable": true,
             "description": "Regexp expression used to validate the attribute value when the attribute type is `text`",
-            "default": "null",
+            "default": null,
             "x-validation-rules": "Required when the property `validation_rule` is equal to `regexp`",
             "x-warning": "Only for `text` attribute type"
           },
@@ -37841,8 +37900,9 @@
           },
           "max_file_size": {
             "type": "string",
+            "nullable": true,
             "description": "Max file size in MB when the attribute type is `media_file`",
-            "default": "null",
+            "default": null,
             "x-warning": "Only for `media_file` attribute type"
           },
           "decimals_allowed": {
@@ -37853,15 +37913,17 @@
           },
           "min_value": {
             "type": "string",
+            "nullable": true,
             "description": "Minimum value allowed when the attribute type is `number`",
-            "default": "null",
+            "default": null,
             "x-validation-rules": "The minimum value must be lower than the maximum value",
             "x-warning": "Only for `number` attribute type"
           },
           "max_value": {
             "type": "string",
+            "nullable": true,
             "description": "Maximum value allowed when the attribute type is `number`",
-            "default": "null",
+            "default": null,
             "x-validation-rules": "The maximum value must be greater than the minimum value",
             "x-warning": "Only for `number` attribute type"
           },
@@ -37879,14 +37941,16 @@
           },
           "prefix": {
             "type": "string",
+            "nullable": true,
             "description": "Prefix of the `media_link` attribute type. The common url root that prefixes the link to the media",
-            "default": "null",
+            "default": null,
             "x-warning": "Only for `media_link` attribute type"
           },
           "suffix": {
             "type": "string",
+            "nullable": true,
             "description": "Suffix of the `media_link` attribute type. The common url suffix for the media",
-            "default": "null",
+            "default": null,
             "x-warning": "Only for `media_link` attribute type"
           }
         },
@@ -38325,8 +38389,9 @@
         },
         "description": {
           "type": "string",
+          "nullable": true,
           "description": "Description of the PAM asset",
-          "default": "null"
+          "default": null
         },
         "localizable": {
           "type": "boolean",
@@ -38344,9 +38409,10 @@
         },
         "end_of_use": {
           "type": "string",
+          "nullable": true,
           "description": "Date on which the PAM asset expire",
           "format": "dateTime",
-          "default": "null",
+          "default": null,
           "x-validation-rules": "The date follows the ISO 8601 format"
         },
         "variation_files": {
@@ -38539,8 +38605,9 @@
             },
             "description": {
               "type": "string",
+              "nullable": true,
               "description": "Description of the PAM asset",
-              "default": "null"
+              "default": null
             },
             "localizable": {
               "type": "boolean",
@@ -38558,9 +38625,10 @@
             },
             "end_of_use": {
               "type": "string",
+              "nullable": true,
               "description": "Date on which the PAM asset expire",
               "format": "dateTime",
-              "default": "null",
+              "default": null,
               "x-validation-rules": "The date follows the ISO 8601 format"
             },
             "variation_files": {
