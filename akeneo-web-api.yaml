@@ -164,7 +164,7 @@ paths:
                                   type: string
                                   description: Family code from which the product inherits its attributes and attributes requirements
                                   x-validation-rules: 'It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.'
-                                  default: null. only in the case of a non variant product
+                                  default: null only in the case of a non variant product
                                 categories:
                                   type: array
                                   description: Codes of the categories in which the product is classified
@@ -691,7 +691,7 @@ paths:
                 type: string
                 description: Family code from which the product inherits its attributes and attributes requirements
                 x-validation-rules: 'It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.'
-                default: null. only in the case of a non variant product
+                default: null only in the case of a non variant product
               categories:
                 type: array
                 description: Codes of the categories in which the product is classified
@@ -1044,7 +1044,7 @@ paths:
                 type: string
                 description: Family code from which the product inherits its attributes and attributes requirements
                 x-validation-rules: 'It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.'
-                default: null. only in the case of a non variant product
+                default: null only in the case of a non variant product
               categories:
                 type: array
                 description: Codes of the categories in which the product is classified
@@ -1413,7 +1413,7 @@ paths:
                 type: string
                 description: Family code from which the product inherits its attributes and attributes requirements
                 x-validation-rules: 'It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.'
-                default: null. only in the case of a non variant product
+                default: null only in the case of a non variant product
               categories:
                 type: array
                 description: Codes of the categories in which the product is classified
@@ -1741,7 +1741,7 @@ paths:
                 type: string
                 description: Family code from which the product inherits its attributes and attributes requirements
                 x-validation-rules: 'It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.'
-                default: null. only in the case of a non variant product
+                default: null only in the case of a non variant product
               categories:
                 type: array
                 description: Codes of the categories in which the product is classified
@@ -2246,7 +2246,7 @@ paths:
                 type: string
                 description: Family code from which the product inherits its attributes and attributes requirements
                 x-validation-rules: 'It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.'
-                default: null. only in the case of a non variant product
+                default: null only in the case of a non variant product
               categories:
                 type: array
                 description: Codes of the categories in which the product is classified
@@ -14501,7 +14501,7 @@ paths:
                                 image:
                                   type: string
                                   description: Code of the reference entity image
-                                  default: null.
+                                  default: null
                               example:
                                 code: brands
                                 labels:
@@ -14631,7 +14631,7 @@ paths:
                   image:
                     type: string
                     description: Code of the reference entity image
-                    default: null.
+                    default: null
                 example:
                   code: brands
                   labels:
@@ -14733,7 +14733,7 @@ paths:
               image:
                 type: string
                 description: Code of the reference entity image
-                default: null.
+                default: null
             example:
               code: brands
               labels:
@@ -14899,7 +14899,7 @@ paths:
                 validation_regexp:
                   type: string
                   description: Regexp expression used to validate the attribute value when the attribute type is `text`
-                  default: null.
+                  default: null
                   x-validation-rules: Required when the property `validation_rule` is equal to `regexp`
                   x-warning: Only for `text` attribute type
                 allowed_extensions:
@@ -14912,12 +14912,12 @@ paths:
                 max_file_size:
                   type: string
                   description: Max file size in MB when the attribute type is `image`
-                  default: null.
+                  default: null
                   x-warning: Only for `image` attribute type
                 reference_entity_code:
                   type: string
                   description: Code of the linked reference entity when the attribute type is `reference_entity_single_link` or `reference_entity_multiple_links`
-                  default: null.
+                  default: null
                   x-validation-rules: Required when the attribute type is either `reference_entity_single_link` or `reference_entity_multiple_links`
                   x-warning: Only for `reference_entity_single_link` and `reference_entity_multiple_links` attribute type
                   x-immutable: true
@@ -14929,13 +14929,13 @@ paths:
                 min_value:
                   type: string
                   description: Minimum value allowed when the attribute type is `number`
-                  default: null.
+                  default: null
                   x-validation-rules: The minimum value must be lower than the maximum value
                   x-warning: Only for `number` attribute type
                 max_value:
                   type: string
                   description: Maximum value allowed when the attribute type is `number`
-                  default: null.
+                  default: null
                   x-validation-rules: The maximum value must be greater than the minimum value
                   x-warning: Only for `number` attribute type
               example:
@@ -15125,7 +15125,7 @@ paths:
               validation_regexp:
                 type: string
                 description: Regexp expression used to validate the attribute value when the attribute type is `text`
-                default: null.
+                default: null
                 x-validation-rules: Required when the property `validation_rule` is equal to `regexp`
                 x-warning: Only for `text` attribute type
               allowed_extensions:
@@ -15138,12 +15138,12 @@ paths:
               max_file_size:
                 type: string
                 description: Max file size in MB when the attribute type is `image`
-                default: null.
+                default: null
                 x-warning: Only for `image` attribute type
               reference_entity_code:
                 type: string
                 description: Code of the linked reference entity when the attribute type is `reference_entity_single_link` or `reference_entity_multiple_links`
-                default: null.
+                default: null
                 x-validation-rules: Required when the attribute type is either `reference_entity_single_link` or `reference_entity_multiple_links`
                 x-warning: Only for `reference_entity_single_link` and `reference_entity_multiple_links` attribute type
                 x-immutable: true
@@ -15155,13 +15155,13 @@ paths:
               min_value:
                 type: string
                 description: Minimum value allowed when the attribute type is `number`
-                default: null.
+                default: null
                 x-validation-rules: The minimum value must be lower than the maximum value
                 x-warning: Only for `number` attribute type
               max_value:
                 type: string
                 description: Maximum value allowed when the attribute type is `number`
-                default: null.
+                default: null
                 x-validation-rules: The maximum value must be greater than the minimum value
                 x-warning: Only for `number` attribute type
             example:
@@ -15320,7 +15320,7 @@ paths:
               validation_regexp:
                 type: string
                 description: Regexp expression used to validate the attribute value when the attribute type is `text`
-                default: null.
+                default: null
                 x-validation-rules: Required when the property `validation_rule` is equal to `regexp`
                 x-warning: Only for `text` attribute type
               allowed_extensions:
@@ -15333,12 +15333,12 @@ paths:
               max_file_size:
                 type: string
                 description: Max file size in MB when the attribute type is `image`
-                default: null.
+                default: null
                 x-warning: Only for `image` attribute type
               reference_entity_code:
                 type: string
                 description: Code of the linked reference entity when the attribute type is `reference_entity_single_link` or `reference_entity_multiple_links`
-                default: null.
+                default: null
                 x-validation-rules: Required when the attribute type is either `reference_entity_single_link` or `reference_entity_multiple_links`
                 x-warning: Only for `reference_entity_single_link` and `reference_entity_multiple_links` attribute type
                 x-immutable: true
@@ -15350,13 +15350,13 @@ paths:
               min_value:
                 type: string
                 description: Minimum value allowed when the attribute type is `number`
-                default: null.
+                default: null
                 x-validation-rules: The minimum value must be lower than the maximum value
                 x-warning: Only for `number` attribute type
               max_value:
                 type: string
                 description: Maximum value allowed when the attribute type is `number`
-                default: null.
+                default: null
                 x-validation-rules: The maximum value must be greater than the minimum value
                 x-warning: Only for `number` attribute type
             example:
@@ -17686,7 +17686,7 @@ paths:
                 validation_regexp:
                   type: string
                   description: Regexp expression used to validate the attribute value when the attribute type is `text`
-                  default: null.
+                  default: null
                   x-validation-rules: Required when the property `validation_rule` is equal to `regexp`
                   x-warning: Only for `text` attribute type
                 allowed_extensions:
@@ -17699,7 +17699,7 @@ paths:
                 max_file_size:
                   type: string
                   description: Max file size in MB when the attribute type is `media_file`
-                  default: null.
+                  default: null
                   x-warning: Only for `media_file` attribute type
                 decimals_allowed:
                   type: boolean
@@ -17709,13 +17709,13 @@ paths:
                 min_value:
                   type: string
                   description: Minimum value allowed when the attribute type is `number`
-                  default: null.
+                  default: null
                   x-validation-rules: The minimum value must be lower than the maximum value
                   x-warning: Only for `number` attribute type
                 max_value:
                   type: string
                   description: Maximum value allowed when the attribute type is `number`
-                  default: null.
+                  default: null
                   x-validation-rules: The maximum value must be greater than the minimum value
                   x-warning: Only for `number` attribute type
                 media_type:
@@ -17731,12 +17731,12 @@ paths:
                 prefix:
                   type: string
                   description: Prefix of the `media_link` attribute type. The common url root that prefixes the link to the media
-                  default: null.
+                  default: null
                   x-warning: Only for `media_link` attribute type
                 suffix:
                   type: string
                   description: Suffix of the `media_link` attribute type. The common url suffix for the media
-                  default: null.
+                  default: null
                   x-warning: Only for `media_link` attribute type
               example:
                 code: model_is_wearing_size
@@ -17915,7 +17915,7 @@ paths:
               validation_regexp:
                 type: string
                 description: Regexp expression used to validate the attribute value when the attribute type is `text`
-                default: null.
+                default: null
                 x-validation-rules: Required when the property `validation_rule` is equal to `regexp`
                 x-warning: Only for `text` attribute type
               allowed_extensions:
@@ -17928,7 +17928,7 @@ paths:
               max_file_size:
                 type: string
                 description: Max file size in MB when the attribute type is `media_file`
-                default: null.
+                default: null
                 x-warning: Only for `media_file` attribute type
               decimals_allowed:
                 type: boolean
@@ -17938,13 +17938,13 @@ paths:
               min_value:
                 type: string
                 description: Minimum value allowed when the attribute type is `number`
-                default: null.
+                default: null
                 x-validation-rules: The minimum value must be lower than the maximum value
                 x-warning: Only for `number` attribute type
               max_value:
                 type: string
                 description: Maximum value allowed when the attribute type is `number`
-                default: null.
+                default: null
                 x-validation-rules: The maximum value must be greater than the minimum value
                 x-warning: Only for `number` attribute type
               media_type:
@@ -17960,12 +17960,12 @@ paths:
               prefix:
                 type: string
                 description: Prefix of the `media_link` attribute type. The common url root that prefixes the link to the media
-                default: null.
+                default: null
                 x-warning: Only for `media_link` attribute type
               suffix:
                 type: string
                 description: Suffix of the `media_link` attribute type. The common url suffix for the media
-                default: null.
+                default: null
                 x-warning: Only for `media_link` attribute type
             example:
               code: model_is_wearing_size
@@ -18124,7 +18124,7 @@ paths:
               validation_regexp:
                 type: string
                 description: Regexp expression used to validate the attribute value when the attribute type is `text`
-                default: null.
+                default: null
                 x-validation-rules: Required when the property `validation_rule` is equal to `regexp`
                 x-warning: Only for `text` attribute type
               allowed_extensions:
@@ -18137,7 +18137,7 @@ paths:
               max_file_size:
                 type: string
                 description: Max file size in MB when the attribute type is `media_file`
-                default: null.
+                default: null
                 x-warning: Only for `media_file` attribute type
               decimals_allowed:
                 type: boolean
@@ -18147,13 +18147,13 @@ paths:
               min_value:
                 type: string
                 description: Minimum value allowed when the attribute type is `number`
-                default: null.
+                default: null
                 x-validation-rules: The minimum value must be lower than the maximum value
                 x-warning: Only for `number` attribute type
               max_value:
                 type: string
                 description: Maximum value allowed when the attribute type is `number`
-                default: null.
+                default: null
                 x-validation-rules: The maximum value must be greater than the minimum value
                 x-warning: Only for `number` attribute type
               media_type:
@@ -18169,12 +18169,12 @@ paths:
               prefix:
                 type: string
                 description: Prefix of the `media_link` attribute type. The common url root that prefixes the link to the media
-                default: null.
+                default: null
                 x-warning: Only for `media_link` attribute type
               suffix:
                 type: string
                 description: Suffix of the `media_link` attribute type. The common url suffix for the media
-                default: null.
+                default: null
                 x-warning: Only for `media_link` attribute type
             example:
               code: model_is_wearing_size
@@ -19641,7 +19641,7 @@ paths:
                                 description:
                                   type: string
                                   description: Description of the PAM asset
-                                  default: null.
+                                  default: null
                                 localizable:
                                   type: boolean
                                   description: 'Whether the asset is localized or not, meaning if you want to have different reference files for each of your locale'
@@ -19657,7 +19657,7 @@ paths:
                                   type: string
                                   description: Date on which the PAM asset expire
                                   format: dateTime
-                                  default: null.
+                                  default: null
                                   x-validation-rules: The date follows the ISO 8601 format
                                 variation_files:
                                   type: array
@@ -19954,7 +19954,7 @@ paths:
               description:
                 type: string
                 description: Description of the PAM asset
-                default: null.
+                default: null
               localizable:
                 type: boolean
                 description: 'Whether the asset is localized or not, meaning if you want to have different reference files for each of your locale'
@@ -19970,7 +19970,7 @@ paths:
                 type: string
                 description: Date on which the PAM asset expire
                 format: dateTime
-                default: null.
+                default: null
                 x-validation-rules: The date follows the ISO 8601 format
               variation_files:
                 type: array
@@ -20195,7 +20195,7 @@ paths:
               description:
                 type: string
                 description: Description of the PAM asset
-                default: null.
+                default: null
               localizable:
                 type: boolean
                 description: 'Whether the asset is localized or not, meaning if you want to have different reference files for each of your locale'
@@ -20211,7 +20211,7 @@ paths:
                 type: string
                 description: Date on which the PAM asset expire
                 format: dateTime
-                default: null.
+                default: null
                 x-validation-rules: The date follows the ISO 8601 format
               variation_files:
                 type: array
@@ -20440,7 +20440,7 @@ paths:
               description:
                 type: string
                 description: Description of the PAM asset
-                default: null.
+                default: null
               localizable:
                 type: boolean
                 description: 'Whether the asset is localized or not, meaning if you want to have different reference files for each of your locale'
@@ -20456,7 +20456,7 @@ paths:
                 type: string
                 description: Date on which the PAM asset expire
                 format: dateTime
-                default: null.
+                default: null
                 x-validation-rules: The date follows the ISO 8601 format
               variation_files:
                 type: array
@@ -20656,7 +20656,7 @@ paths:
               description:
                 type: string
                 description: Description of the PAM asset
-                default: null.
+                default: null
               localizable:
                 type: boolean
                 description: 'Whether the asset is localized or not, meaning if you want to have different reference files for each of your locale'
@@ -20672,7 +20672,7 @@ paths:
                 type: string
                 description: Date on which the PAM asset expire
                 format: dateTime
-                default: null.
+                default: null
                 x-validation-rules: The date follows the ISO 8601 format
               variation_files:
                 type: array
@@ -22905,7 +22905,7 @@ definitions:
         type: string
         description: Family code from which the product inherits its attributes and attributes requirements
         x-validation-rules: 'It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.'
-        default: null. only in the case of a non variant product
+        default: null only in the case of a non variant product
       categories:
         type: array
         description: Codes of the categories in which the product is classified
@@ -23165,7 +23165,7 @@ definitions:
             type: string
             description: Family code from which the product inherits its attributes and attributes requirements
             x-validation-rules: 'It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.'
-            default: null. only in the case of a non variant product
+            default: null only in the case of a non variant product
           categories:
             type: array
             description: Codes of the categories in which the product is classified
@@ -24085,7 +24085,7 @@ definitions:
           image:
             type: string
             description: Code of the reference entity image
-            default: null.
+            default: null
         example:
           code: brands
           labels:
@@ -24141,7 +24141,7 @@ definitions:
           image:
             type: string
             description: Code of the reference entity image
-            default: null.
+            default: null
         example:
           code: brands
           labels:
@@ -24220,7 +24220,7 @@ definitions:
       validation_regexp:
         type: string
         description: Regexp expression used to validate the attribute value when the attribute type is `text`
-        default: null.
+        default: null
         x-validation-rules: Required when the property `validation_rule` is equal to `regexp`
         x-warning: Only for `text` attribute type
       allowed_extensions:
@@ -24233,12 +24233,12 @@ definitions:
       max_file_size:
         type: string
         description: Max file size in MB when the attribute type is `image`
-        default: null.
+        default: null
         x-warning: Only for `image` attribute type
       reference_entity_code:
         type: string
         description: Code of the linked reference entity when the attribute type is `reference_entity_single_link` or `reference_entity_multiple_links`
-        default: null.
+        default: null
         x-validation-rules: Required when the attribute type is either `reference_entity_single_link` or `reference_entity_multiple_links`
         x-warning: Only for `reference_entity_single_link` and `reference_entity_multiple_links` attribute type
         x-immutable: true
@@ -24250,13 +24250,13 @@ definitions:
       min_value:
         type: string
         description: Minimum value allowed when the attribute type is `number`
-        default: null.
+        default: null
         x-validation-rules: The minimum value must be lower than the maximum value
         x-warning: Only for `number` attribute type
       max_value:
         type: string
         description: Maximum value allowed when the attribute type is `number`
-        default: null.
+        default: null
         x-validation-rules: The maximum value must be greater than the minimum value
         x-warning: Only for `number` attribute type
     example:
@@ -24347,7 +24347,7 @@ definitions:
         validation_regexp:
           type: string
           description: Regexp expression used to validate the attribute value when the attribute type is `text`
-          default: null.
+          default: null
           x-validation-rules: Required when the property `validation_rule` is equal to `regexp`
           x-warning: Only for `text` attribute type
         allowed_extensions:
@@ -24360,12 +24360,12 @@ definitions:
         max_file_size:
           type: string
           description: Max file size in MB when the attribute type is `image`
-          default: null.
+          default: null
           x-warning: Only for `image` attribute type
         reference_entity_code:
           type: string
           description: Code of the linked reference entity when the attribute type is `reference_entity_single_link` or `reference_entity_multiple_links`
-          default: null.
+          default: null
           x-validation-rules: Required when the attribute type is either `reference_entity_single_link` or `reference_entity_multiple_links`
           x-warning: Only for `reference_entity_single_link` and `reference_entity_multiple_links` attribute type
           x-immutable: true
@@ -24377,13 +24377,13 @@ definitions:
         min_value:
           type: string
           description: Minimum value allowed when the attribute type is `number`
-          default: null.
+          default: null
           x-validation-rules: The minimum value must be lower than the maximum value
           x-warning: Only for `number` attribute type
         max_value:
           type: string
           description: Maximum value allowed when the attribute type is `number`
-          default: null.
+          default: null
           x-validation-rules: The maximum value must be greater than the minimum value
           x-warning: Only for `number` attribute type
       example:
@@ -26535,7 +26535,7 @@ definitions:
         validation_regexp:
           type: string
           description: Regexp expression used to validate the attribute value when the attribute type is `text`
-          default: null.
+          default: null
           x-validation-rules: Required when the property `validation_rule` is equal to `regexp`
           x-warning: Only for `text` attribute type
         allowed_extensions:
@@ -26548,7 +26548,7 @@ definitions:
         max_file_size:
           type: string
           description: Max file size in MB when the attribute type is `media_file`
-          default: null.
+          default: null
           x-warning: Only for `media_file` attribute type
         decimals_allowed:
           type: boolean
@@ -26558,13 +26558,13 @@ definitions:
         min_value:
           type: string
           description: Minimum value allowed when the attribute type is `number`
-          default: null.
+          default: null
           x-validation-rules: The minimum value must be lower than the maximum value
           x-warning: Only for `number` attribute type
         max_value:
           type: string
           description: Maximum value allowed when the attribute type is `number`
-          default: null.
+          default: null
           x-validation-rules: The maximum value must be greater than the minimum value
           x-warning: Only for `number` attribute type
         media_type:
@@ -26580,12 +26580,12 @@ definitions:
         prefix:
           type: string
           description: Prefix of the `media_link` attribute type. The common url root that prefixes the link to the media
-          default: null.
+          default: null
           x-warning: Only for `media_link` attribute type
         suffix:
           type: string
           description: Suffix of the `media_link` attribute type. The common url suffix for the media
-          default: null.
+          default: null
           x-warning: Only for `media_link` attribute type
       example:
         code: model_is_wearing_size
@@ -26876,7 +26876,7 @@ definitions:
       description:
         type: string
         description: Description of the PAM asset
-        default: null.
+        default: null
       localizable:
         type: boolean
         description: 'Whether the asset is localized or not, meaning if you want to have different reference files for each of your locale'
@@ -26892,7 +26892,7 @@ definitions:
         type: string
         description: Date on which the PAM asset expire
         format: dateTime
-        default: null.
+        default: null
         x-validation-rules: The date follows the ISO 8601 format
       variation_files:
         type: array
@@ -27023,7 +27023,7 @@ definitions:
           description:
             type: string
             description: Description of the PAM asset
-            default: null.
+            default: null
           localizable:
             type: boolean
             description: 'Whether the asset is localized or not, meaning if you want to have different reference files for each of your locale'
@@ -27039,7 +27039,7 @@ definitions:
             type: string
             description: Date on which the PAM asset expire
             format: dateTime
-            default: null.
+            default: null
             x-validation-rules: The date follows the ISO 8601 format
           variation_files:
             type: array
