@@ -4,7 +4,7 @@
     "title": "Akeneo PIM REST API",
     "version": "1.0.0"
   },
-  "host": "demo.akeneo.com",
+  "host": "recette-akeneo.focal.com",
   "schemes": [
     "http"
   ],
@@ -584,16 +584,16 @@
             "examples": {
               "_links": {
                 "self": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/products?page=3&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/products?page=3&limit=3"
                 },
                 "first": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/products?page=1&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/products?page=1&limit=3"
                 },
                 "previous": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/products?page=2&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/products?page=2&limit=3"
                 },
                 "next": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/products?page=4&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/products?page=4&limit=3"
                 }
               },
               "current_page": 3,
@@ -602,7 +602,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/product/top"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/product/top"
                       }
                     },
                     "identifier": "top",
@@ -771,7 +771,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/product/cap"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/product/cap"
                       }
                     },
                     "identifier": "cap",
@@ -887,7 +887,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/product/sweat"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/product/sweat"
                       }
                     },
                     "identifier": "sweat",
@@ -4179,13 +4179,13 @@
             "examples": {
               "_links": {
                 "self": {
-                  "href": "http://demo.akeneo.com/api/rest/v1/product-models?pagination_type=search_after&limit=3&search_after=qg%3D%3D"
+                  "href": "http://recette-akeneo.focal.com/api/rest/v1/product-models?pagination_type=search_after&limit=3&search_after=qg%3D%3D"
                 },
                 "first": {
-                  "href": "http://demo.akeneo.com/api/rest/v1/product-models?pagination_type=search_after&limit=3"
+                  "href": "http://recette-akeneo.focal.com/api/rest/v1/product-models?pagination_type=search_after&limit=3"
                 },
                 "next": {
-                  "href": "http://demo.akeneo.com/api/rest/v1/product-models?pagination_type=search_after&limit=3&search_after=rw%3D%3D"
+                  "href": "http://recette-akeneo.focal.com/api/rest/v1/product-models?pagination_type=search_after&limit=3&search_after=rw%3D%3D"
                 }
               },
               "_embedded": {
@@ -4193,7 +4193,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "http://demo.akeneo.com/api/rest/v1/product-models/amarisshoe"
+                        "href": "http://recette-akeneo.focal.com/api/rest/v1/product-models/amarisshoe"
                       }
                     },
                     "code": "amarisshoe",
@@ -4260,7 +4260,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "http://demo.akeneo.com/api/rest/v1/product-models/Abiloitshirt"
+                        "href": "http://recette-akeneo.focal.com/api/rest/v1/product-models/Abiloitshirt"
                       }
                     },
                     "code": "Abiloitshirt",
@@ -4318,7 +4318,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "http://demo.akeneo.com/api/rest/v1/product-models/Astertrousers"
+                        "href": "http://recette-akeneo.focal.com/api/rest/v1/product-models/Astertrousers"
                       }
                     },
                     "code": "Astertrousers",
@@ -6851,16 +6851,16 @@
             "examples": {
               "_links": {
                 "self": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/published-products?page=3&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/published-products?page=3&limit=3"
                 },
                 "first": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/published-products?page=1&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/published-products?page=1&limit=3"
                 },
                 "previous": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/published-products?page=2&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/published-products?page=2&limit=3"
                 },
                 "next": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/published-products?page=4&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/published-products?page=4&limit=3"
                 }
               },
               "current_page": 3,
@@ -6869,7 +6869,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/published-products/top"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/published-products/top"
                       }
                     },
                     "identifier": "top",
@@ -6960,7 +6960,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/published-products/cap"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/published-products/cap"
                       }
                     },
                     "identifier": "cap",
@@ -7044,7 +7044,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/published-products/sweat"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/published-products/sweat"
                       }
                     },
                     "identifier": "sweat",
@@ -7678,16 +7678,16 @@
             "examples": {
               "_links": {
                 "self": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/media-files?page=2&limit=4"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/media-files?page=2&limit=4"
                 },
                 "first": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/media-files?page=1&limit=4"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/media-files?page=1&limit=4"
                 },
                 "previous": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/media-files?page=1&limit=4"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/media-files?page=1&limit=4"
                 },
                 "next": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/media-files?page=2&limit=4"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/media-files?page=2&limit=4"
                 }
               },
               "current_page": 2,
@@ -7696,10 +7696,10 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/media-files/7/5/8/e/758e39d48ea7b42a55091434fd3d8b6cf3189b7f_10806799_1356.jpg"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/media-files/7/5/8/e/758e39d48ea7b42a55091434fd3d8b6cf3189b7f_10806799_1356.jpg"
                       },
                       "download": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/media-files/7/5/8/e/758e39d48ea7b42a55091434fd3d8b6cf3189b7f_10806799_1356.jpg/download"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/media-files/7/5/8/e/758e39d48ea7b42a55091434fd3d8b6cf3189b7f_10806799_1356.jpg/download"
                       }
                     },
                     "code": "7/5/8/e/758e39d48ea7b42a55091434fd3d8b6cf3189b7f_10806799_1356.jpg",
@@ -7711,10 +7711,10 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/media-files/d/0/3/2/d032a92d994df3ef67ee6746b7b7a795c2964e7c_10734346_1480.jpg"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/media-files/d/0/3/2/d032a92d994df3ef67ee6746b7b7a795c2964e7c_10734346_1480.jpg"
                       },
                       "download": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/media-files/d/0/3/2/d032a92d994df3ef67ee6746b7b7a795c2964e7c_10734346_1480.jpg/download"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/media-files/d/0/3/2/d032a92d994df3ef67ee6746b7b7a795c2964e7c_10734346_1480.jpg/download"
                       }
                     },
                     "code": "d/0/3/2/d032a92d994df3ef67ee6746b7b7a795c2964e7c_10734346_1480.jpg",
@@ -7726,10 +7726,10 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/media-files/5/1/d/8/51d81dc778ba1501a8f998f3ab5797569f3b9e25_12431976_8797.jpg"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/media-files/5/1/d/8/51d81dc778ba1501a8f998f3ab5797569f3b9e25_12431976_8797.jpg"
                       },
                       "download": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/media-files/5/1/d/8/51d81dc778ba1501a8f998f3ab5797569f3b9e25_12431976_8797.jpg/download"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/media-files/5/1/d/8/51d81dc778ba1501a8f998f3ab5797569f3b9e25_12431976_8797.jpg/download"
                       }
                     },
                     "code": "5/1/d/8/51d81dc778ba1501a8f998f3ab5797569f3b9e25_12431976_8797.jpg",
@@ -7741,10 +7741,10 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/media-files/0/c/b/0/0cb0c0e115dedba676f8d1ad8343e6207ab54c7b_107406_9841.jpg"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/media-files/0/c/b/0/0cb0c0e115dedba676f8d1ad8343e6207ab54c7b_107406_9841.jpg"
                       },
                       "download": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/media-files/0/c/b/0/0cb0c0e115dedba676f8d1ad8343e6207ab54c7b_107406_9841.jpg/download"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/media-files/0/c/b/0/0cb0c0e115dedba676f8d1ad8343e6207ab54c7b_107406_9841.jpg/download"
                       }
                     },
                     "code": "0/c/b/0/0cb0c0e115dedba676f8d1ad8343e6207ab54c7b_107406_9841.jpg",
@@ -8084,7 +8084,7 @@
               "example": {
                 "_links": {
                   "download": {
-                    "href": "https://demo.akeneo.com/api/rest/v1/media-files/7/5/8/e/758e39d48ea7b42a55091434fd3d8b6cf3189b7f_10806799_1356.jpg/download"
+                    "href": "https://recette-akeneo.focal.com/api/rest/v1/media-files/7/5/8/e/758e39d48ea7b42a55091434fd3d8b6cf3189b7f_10806799_1356.jpg/download"
                   }
                 },
                 "code": "7/5/8/e/758e39d48ea7b42a55091434fd3d8b6cf3189b7f_10806799_1356.jpg",
@@ -8519,16 +8519,16 @@
             "examples": {
               "_links": {
                 "self": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/families?page=2&limit=2"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/families?page=2&limit=2"
                 },
                 "first": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/families?page=1&limit=2"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/families?page=1&limit=2"
                 },
                 "previous": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/families?page=1&limit=2"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/families?page=1&limit=2"
                 },
                 "next": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/families?page=3&limit=2"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/families?page=3&limit=2"
                 }
               },
               "current_page": 2,
@@ -8537,7 +8537,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/families/tshirt"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/families/tshirt"
                       }
                     },
                     "code": "tshirt",
@@ -8576,7 +8576,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/families/caps"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/families/caps"
                       }
                     },
                     "code": "caps",
@@ -11300,16 +11300,16 @@
             "examples": {
               "_links": {
                 "self": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/attributes?page=3&limit=2"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/attributes?page=3&limit=2"
                 },
                 "first": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/attributes?page=1&limit=2"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/attributes?page=1&limit=2"
                 },
                 "previous": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/attributes?page=2&limit=2"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/attributes?page=2&limit=2"
                 },
                 "next": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/attributes?page=4&limit=2"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/attributes?page=4&limit=2"
                 }
               },
               "current_page": 3,
@@ -11318,7 +11318,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/attributes/sku"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/attributes/sku"
                       }
                     },
                     "code": "sku",
@@ -11359,7 +11359,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/attributes/release_date"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/attributes/release_date"
                       }
                     },
                     "code": "release_date",
@@ -13158,16 +13158,16 @@
             "examples": {
               "_links": {
                 "self": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/attributes/color/options?page=3&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/attributes/color/options?page=3&limit=3"
                 },
                 "first": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/attributes/color/options?page=1&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/attributes/color/options?page=1&limit=3"
                 },
                 "previous": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/attributes/color/options?page=2&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/attributes/color/options?page=2&limit=3"
                 },
                 "next": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/attributes/color/options?page=4&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/attributes/color/options?page=4&limit=3"
                 }
               },
               "current_page": 3,
@@ -13176,7 +13176,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/attributes/color/options/red"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/attributes/color/options/red"
                       }
                     },
                     "code": "red",
@@ -13190,7 +13190,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/attributes/color/options/black"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/attributes/color/options/black"
                       }
                     },
                     "code": "black",
@@ -13204,7 +13204,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/attributes/color/options/purple"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/attributes/color/options/purple"
                       }
                     },
                     "code": "purple",
@@ -14257,16 +14257,16 @@
             "examples": {
               "_links": {
                 "self": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/attribute-groups?page=3&limit=2"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/attribute-groups?page=3&limit=2"
                 },
                 "first": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/attribute-groups?page=1&limit=2"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/attribute-groups?page=1&limit=2"
                 },
                 "previous": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/attribute-groups?page=2&limit=2"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/attribute-groups?page=2&limit=2"
                 },
                 "next": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/attribute-groups?page=4&limit=2"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/attribute-groups?page=4&limit=2"
                 }
               },
               "current_page": 3,
@@ -14275,7 +14275,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/attribute-groups/marketing"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/attribute-groups/marketing"
                       }
                     },
                     "code": "marketing",
@@ -14296,7 +14296,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/attribute-groups/technical"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/attribute-groups/technical"
                       }
                     },
                     "code": "technical",
@@ -15360,10 +15360,10 @@
             "examples": {
               "_links": {
                 "self": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/association-types?page=1&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/association-types?page=1&limit=3"
                 },
                 "first": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/association-types?page=1&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/association-types?page=1&limit=3"
                 }
               },
               "current_page": 1,
@@ -15372,7 +15372,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/association-types/X_SELL"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/association-types/X_SELL"
                       }
                     },
                     "code": "X_SELL",
@@ -15386,7 +15386,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/association-types/UPSELL"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/association-types/UPSELL"
                       }
                     },
                     "code": "UPSELL",
@@ -15400,7 +15400,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/association-types/SUBSTITUTION"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/association-types/SUBSTITUTION"
                       }
                     },
                     "code": "SUBSTITUTION",
@@ -16450,10 +16450,10 @@
             "examples": {
               "_links": {
                 "self": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/channels?page=1&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/channels?page=1&limit=3"
                 },
                 "first": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/channels?page=1&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/channels?page=1&limit=3"
                 }
               },
               "current_page": 1,
@@ -16462,7 +16462,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/channels/ecommerce"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/channels/ecommerce"
                       }
                     },
                     "code": "ecommerce",
@@ -16490,7 +16490,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/channels/mobile"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/channels/mobile"
                       }
                     },
                     "code": "mobile",
@@ -16518,7 +16518,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/channels/print"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/channels/print"
                       }
                     },
                     "code": "print",
@@ -17660,16 +17660,16 @@
             "examples": {
               "_links": {
                 "self": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/locales?page=2&limit=4"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/locales?page=2&limit=4"
                 },
                 "first": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/locales?page=1&limit=4"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/locales?page=1&limit=4"
                 },
                 "previous": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/locales?page=1&limit=4"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/locales?page=1&limit=4"
                 },
                 "next": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/locales?page=2&limit=4"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/locales?page=2&limit=4"
                 }
               },
               "current_page": 2,
@@ -17678,7 +17678,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/locales/en_US"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/locales/en_US"
                       }
                     },
                     "code": "en_US",
@@ -17687,7 +17687,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/locales/fr_FR"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/locales/fr_FR"
                       }
                     },
                     "code": "fr_FR",
@@ -17696,7 +17696,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/locales/de_DE"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/locales/de_DE"
                       }
                     },
                     "code": "de_DE",
@@ -17705,7 +17705,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/locales/af_ZA"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/locales/af_ZA"
                       }
                     },
                     "code": "af_ZA",
@@ -18106,16 +18106,16 @@
             "examples": {
               "_links": {
                 "self": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/categories?page=2&limit=5"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/categories?page=2&limit=5"
                 },
                 "first": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/categories?page=1&limit=5"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/categories?page=1&limit=5"
                 },
                 "previous": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/categories?page=1&limit=5"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/categories?page=1&limit=5"
                 },
                 "next": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/categories?page=3&limit=5"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/categories?page=3&limit=5"
                 }
               },
               "current_page": 2,
@@ -18124,7 +18124,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/categories/winter_collection"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/categories/winter_collection"
                       }
                     },
                     "code": "winter_collection",
@@ -18138,7 +18138,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/categories/woman"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/categories/woman"
                       }
                     },
                     "code": "woman",
@@ -18152,7 +18152,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/categories/man"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/categories/man"
                       }
                     },
                     "code": "man",
@@ -18166,7 +18166,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/categories/kids"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/categories/kids"
                       }
                     },
                     "code": "kids",
@@ -18180,7 +18180,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/categories/summer_collection"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/categories/summer_collection"
                       }
                     },
                     "code": "summer_collection",
@@ -19146,10 +19146,10 @@
             "examples": {
               "_links": {
                 "self": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/currencies?page=1&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/currencies?page=1&limit=3"
                 },
                 "first": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/currencies?page=1&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/currencies?page=1&limit=3"
                 }
               },
               "current_page": 1,
@@ -19158,7 +19158,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/currencies/ADP"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/currencies/ADP"
                       }
                     },
                     "code": "ADP",
@@ -19167,7 +19167,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/currencies/AED"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/currencies/AED"
                       }
                     },
                     "code": "AED",
@@ -19176,7 +19176,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/currencies/AFA"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/currencies/AFA"
                       }
                     },
                     "code": "AFA",
@@ -19561,10 +19561,10 @@
             "examples": {
               "_links": {
                 "self": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/measure-families?page=1&limit=1"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/measure-families?page=1&limit=1"
                 },
                 "first": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/measure-families?page=1&limit=1"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/measure-families?page=1&limit=1"
                 }
               },
               "current_page": 1,
@@ -19573,7 +19573,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/measure-families/Area"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/measure-families/Area"
                       }
                     },
                     "code": "Area",
@@ -20640,13 +20640,13 @@
             "examples": {
               "_links": {
                 "self": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/reference-entities"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/reference-entities"
                 },
                 "first": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/reference-entities"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/reference-entities"
                 },
                 "next": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/reference-entities?search_after=2x055w%3D%3D"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/reference-entities?search_after=2x055w%3D%3D"
                 }
               },
               "_embedded": {
@@ -20654,10 +20654,10 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/reference-entities/brands"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/reference-entities/brands"
                       },
                       "image_download": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/reference-entities-media-files/0/2/d/6/54d81dc888ba1501a8g765f3ab5797569f3bv756c_ref_img.png"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/reference-entities-media-files/0/2/d/6/54d81dc888ba1501a8g765f3ab5797569f3bv756c_ref_img.png"
                       }
                     },
                     "code": "brands",
@@ -20670,7 +20670,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/reference-entities/designers"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/reference-entities/designers"
                       }
                     },
                     "code": "designers",
@@ -20683,7 +20683,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/reference-entities/colors"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/reference-entities/colors"
                       }
                     },
                     "code": "colors",
@@ -20834,7 +20834,7 @@
               "example": {
                 "_links": {
                   "image_download": {
-                    "href": "https://demo.akeneo.com/api/rest/v1/reference-entities-media-files/0/2/d/6/54d81dc888ba1501a8g765f3ab5797569f3bv756c_ref_img.png"
+                    "href": "https://recette-akeneo.focal.com/api/rest/v1/reference-entities-media-files/0/2/d/6/54d81dc888ba1501a8g765f3ab5797569f3bv756c_ref_img.png"
                   }
                 },
                 "code": "brands",
@@ -22555,13 +22555,13 @@
             "examples": {
               "_links": {
                 "self": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/reference-entities/brands/records"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/reference-entities/brands/records"
                 },
                 "first": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/reference-entities/brands/records"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/reference-entities/brands/records"
                 },
                 "next": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/reference-entities/brands/records?search_after=2x088w%3D%3D"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/reference-entities/brands/records?search_after=2x088w%3D%3D"
                 }
               },
               "_embedded": {
@@ -22569,7 +22569,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/reference-entities/brands/records/kartell"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/reference-entities/brands/records/kartell"
                       }
                     },
                     "code": "kartell",
@@ -22612,7 +22612,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/reference-entities/brands/records/usm"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/reference-entities/brands/records/usm"
                       }
                     },
                     "code": "usm",
@@ -22655,7 +22655,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/reference-entities/brands/records/ligneroset"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/reference-entities/brands/records/ligneroset"
                       }
                     },
                     "code": "ligneroset",
@@ -24125,13 +24125,13 @@
             "examples": {
               "_links": {
                 "self": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/asset-families"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/asset-families"
                 },
                 "first": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/asset-families"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/asset-families"
                 },
                 "next": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/asset-families?search_after=2x055w%3D%3D"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/asset-families?search_after=2x055w%3D%3D"
                 }
               },
               "_embedded": {
@@ -24139,7 +24139,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/asset-families/packshots"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/asset-families/packshots"
                       }
                     },
                     "code": "packshots",
@@ -24208,7 +24208,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/asset-families/videos"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/asset-families/videos"
                       }
                     },
                     "code": "videos",
@@ -24240,7 +24240,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/asset-families/user_guides"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/asset-families/user_guides"
                       }
                     },
                     "code": "user_guides",
@@ -26824,13 +26824,13 @@
             "examples": {
               "_links": {
                 "self": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/asset-families/model_pictures/assets"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/asset-families/model_pictures/assets"
                 },
                 "first": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/asset-families/model_pictures/assets"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/asset-families/model_pictures/assets"
                 },
                 "next": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/asset-families/model_pictures/assets?search_after=2x088w%3D%3D"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/asset-families/model_pictures/assets?search_after=2x088w%3D%3D"
                 }
               },
               "_embedded": {
@@ -26838,7 +26838,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/asset-families/model_pictures/assets/allie_jean_model_picture"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/asset-families/model_pictures/assets/allie_jean_model_picture"
                       }
                     },
                     "code": "allie_jean_model_picture",
@@ -26874,7 +26874,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/asset-families/model_pictures/assets/amy_socks_model_picture"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/asset-families/model_pictures/assets/amy_socks_model_picture"
                       }
                     },
                     "code": "amy_socks_model_picture",
@@ -26910,7 +26910,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/asset-families/model_pictures/assets/alice_blouse_model_picture"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/asset-families/model_pictures/assets/alice_blouse_model_picture"
                       }
                     },
                     "code": "alice_blouse_model_picture",
@@ -28156,10 +28156,10 @@
                                     {
                                       "_link": {
                                         "download": {
-                                          "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale/download"
+                                          "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale/download"
                                         },
                                         "self": {
-                                          "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale"
+                                          "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale"
                                         }
                                       },
                                       "locale": null,
@@ -28169,10 +28169,10 @@
                                     {
                                       "_link": {
                                         "download": {
-                                          "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale/download"
+                                          "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale/download"
                                         },
                                         "self": {
-                                          "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale"
+                                          "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale"
                                         }
                                       },
                                       "locale": null,
@@ -28184,10 +28184,10 @@
                                     {
                                       "_link": {
                                         "download": {
-                                          "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale/download"
+                                          "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale/download"
                                         },
                                         "self": {
-                                          "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale"
+                                          "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale"
                                         }
                                       },
                                       "locale": null,
@@ -28208,16 +28208,16 @@
             "examples": {
               "_links": {
                 "self": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/assets?page=2&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/assets?page=2&limit=3"
                 },
                 "first": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/assets?page=1&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/assets?page=1&limit=3"
                 },
                 "previous": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/assets?page=1&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/assets?page=1&limit=3"
                 },
                 "next": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/assets?page=3&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/assets?page=3&limit=3"
                 }
               },
               "current_page": 2,
@@ -28226,7 +28226,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture"
                       }
                     },
                     "code": "tshirt_artemis_main_picture",
@@ -28245,10 +28245,10 @@
                       {
                         "_link": {
                           "download": {
-                            "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale/download"
+                            "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale/download"
                           },
                           "self": {
-                            "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale"
+                            "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale"
                           }
                         },
                         "locale": null,
@@ -28258,10 +28258,10 @@
                       {
                         "_link": {
                           "download": {
-                            "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale/download"
+                            "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale/download"
                           },
                           "self": {
-                            "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale"
+                            "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale"
                           }
                         },
                         "locale": null,
@@ -28273,10 +28273,10 @@
                       {
                         "_link": {
                           "download": {
-                            "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale/download"
+                            "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale/download"
                           },
                           "self": {
-                            "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale"
+                            "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale"
                           }
                         },
                         "locale": null,
@@ -28287,7 +28287,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_profile_picture"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_profile_picture"
                       }
                     },
                     "code": "tshirt_artemis_profile_picture",
@@ -28307,10 +28307,10 @@
                       {
                         "_link": {
                           "download": {
-                            "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_profile_picture/variation-files/ecommerce/no_locale/download"
+                            "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_profile_picture/variation-files/ecommerce/no_locale/download"
                           },
                           "self": {
-                            "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_profile_picture/variation-files/ecommerce/no_locale"
+                            "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_profile_picture/variation-files/ecommerce/no_locale"
                           }
                         },
                         "locale": null,
@@ -28320,10 +28320,10 @@
                       {
                         "_link": {
                           "download": {
-                            "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_profile_picture/variation-files/print/no_locale/download"
+                            "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_profile_picture/variation-files/print/no_locale/download"
                           },
                           "self": {
-                            "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_profile_picture/variation-files/print/no_locale"
+                            "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_profile_picture/variation-files/print/no_locale"
                           }
                         },
                         "locale": null,
@@ -28335,10 +28335,10 @@
                       {
                         "_link": {
                           "download": {
-                            "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_profile_picture/reference-files/no_locale/download"
+                            "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_profile_picture/reference-files/no_locale/download"
                           },
                           "self": {
-                            "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_profile_picture/reference-files/no_locale"
+                            "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_profile_picture/reference-files/no_locale"
                           }
                         },
                         "locale": null,
@@ -28349,7 +28349,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_maintenance_manual"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_maintenance_manual"
                       }
                     },
                     "code": "tshirt_artemis_maintenance_manual",
@@ -28368,10 +28368,10 @@
                       {
                         "_link": {
                           "download": {
-                            "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_maintenance_manual/reference-files/en_US/download"
+                            "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_maintenance_manual/reference-files/en_US/download"
                           },
                           "self": {
-                            "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_maintenance_manual/reference-files/en_US"
+                            "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_maintenance_manual/reference-files/en_US"
                           }
                         },
                         "locale": "en_US",
@@ -28380,10 +28380,10 @@
                       {
                         "_link": {
                           "download": {
-                            "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_maintenance_manual/reference-files/fr_FR/download"
+                            "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_maintenance_manual/reference-files/fr_FR/download"
                           },
                           "self": {
-                            "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_maintenance_manual/reference-files/fr_FR"
+                            "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_maintenance_manual/reference-files/fr_FR"
                           }
                         },
                         "locale": "fr_FR",
@@ -28631,10 +28631,10 @@
                   {
                     "_link": {
                       "download": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale/download"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale/download"
                       },
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale"
                       }
                     },
                     "locale": null,
@@ -28644,10 +28644,10 @@
                   {
                     "_link": {
                       "download": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale/download"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale/download"
                       },
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale"
                       }
                     },
                     "locale": null,
@@ -28659,10 +28659,10 @@
                   {
                     "_link": {
                       "download": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale/download"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale/download"
                       },
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale"
                       }
                     },
                     "locale": null,
@@ -28973,10 +28973,10 @@
                   {
                     "_link": {
                       "download": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale/download"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale/download"
                       },
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale"
                       }
                     },
                     "locale": null,
@@ -28986,10 +28986,10 @@
                   {
                     "_link": {
                       "download": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale/download"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale/download"
                       },
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale"
                       }
                     },
                     "locale": null,
@@ -29001,10 +29001,10 @@
                   {
                     "_link": {
                       "download": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale/download"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale/download"
                       },
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale"
                       }
                     },
                     "locale": null,
@@ -29319,10 +29319,10 @@
                   {
                     "_link": {
                       "download": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale/download"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale/download"
                       },
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale"
                       }
                     },
                     "locale": null,
@@ -29332,10 +29332,10 @@
                   {
                     "_link": {
                       "download": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale/download"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale/download"
                       },
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale"
                       }
                     },
                     "locale": null,
@@ -29347,10 +29347,10 @@
                   {
                     "_link": {
                       "download": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale/download"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale/download"
                       },
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale"
                       }
                     },
                     "locale": null,
@@ -29625,10 +29625,10 @@
                   {
                     "_link": {
                       "download": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale/download"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale/download"
                       },
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale"
                       }
                     },
                     "locale": null,
@@ -29638,10 +29638,10 @@
                   {
                     "_link": {
                       "download": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale/download"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale/download"
                       },
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale"
                       }
                     },
                     "locale": null,
@@ -29653,10 +29653,10 @@
                   {
                     "_link": {
                       "download": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale/download"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale/download"
                       },
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale"
                       }
                     },
                     "locale": null,
@@ -29870,7 +29870,7 @@
                 "locale": null,
                 "_link": {
                   "download": {
-                    "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale/download"
+                    "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale/download"
                   }
                 }
               }
@@ -30378,7 +30378,7 @@
                 "scope": "ecommerce",
                 "_link": {
                   "download": {
-                    "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale/download"
+                    "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale/download"
                   }
                 }
               }
@@ -30970,16 +30970,16 @@
             "examples": {
               "_links": {
                 "self": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/asset-categories?page=2&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/asset-categories?page=2&limit=3"
                 },
                 "first": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/asset-categories?page=1&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/asset-categories?page=1&limit=3"
                 },
                 "previous": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/asset-categories?page=1&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/asset-categories?page=1&limit=3"
                 },
                 "next": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/asset-categories?page=3&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/asset-categories?page=3&limit=3"
                 }
               },
               "current_page": 2,
@@ -30988,7 +30988,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/asset-categories/pictures"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/asset-categories/pictures"
                       }
                     },
                     "code": "pictures",
@@ -31002,7 +31002,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/asset-categories/front_views"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/asset-categories/front_views"
                       }
                     },
                     "code": "front_views",
@@ -31016,7 +31016,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/asset-categories/side_views"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/asset-categories/side_views"
                       }
                     },
                     "code": "side_views",
@@ -31983,16 +31983,16 @@
             "examples": {
               "_links": {
                 "self": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/asset-tags?page=2&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/asset-tags?page=2&limit=3"
                 },
                 "first": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/asset-tags?page=1&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/asset-tags?page=1&limit=3"
                 },
                 "previous": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/asset-tags?page=1&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/asset-tags?page=1&limit=3"
                 },
                 "next": {
-                  "href": "https://demo.akeneo.com/api/rest/v1/asset-tags?page=3&limit=3"
+                  "href": "https://recette-akeneo.focal.com/api/rest/v1/asset-tags?page=3&limit=3"
                 }
               },
               "current_page": 2,
@@ -32001,7 +32001,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/asset-tags/tshirt"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/asset-tags/tshirt"
                       }
                     },
                     "code": "tshirt"
@@ -32009,7 +32009,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/asset-tags/belt"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/asset-tags/belt"
                       }
                     },
                     "code": "belt"
@@ -32017,7 +32017,7 @@
                   {
                     "_links": {
                       "self": {
-                        "href": "https://demo.akeneo.com/api/rest/v1/asset-tags/red"
+                        "href": "https://recette-akeneo.focal.com/api/rest/v1/asset-tags/red"
                       }
                     },
                     "code": "red"
@@ -32441,7 +32441,7 @@
               }
             },
             "examples": {
-              "host": "https://demo.akeneo.com",
+              "host": "https://recette-akeneo.focal.com",
               "authentication": {
                 "fos_oauth_server_token": {
                   "route": "/api/oauth/v1/token",
@@ -34465,7 +34465,7 @@
       "example": {
         "_links": {
           "image_download": {
-            "href": "https://demo.akeneo.com/api/rest/v1/reference-entities-media-files/0/2/d/6/54d81dc888ba1501a8g765f3ab5797569f3bv756c_ref_img.png"
+            "href": "https://recette-akeneo.focal.com/api/rest/v1/reference-entities-media-files/0/2/d/6/54d81dc888ba1501a8g765f3ab5797569f3bv756c_ref_img.png"
           }
         },
         "code": "brands",
@@ -36883,7 +36883,7 @@
       "example": {
         "_links": {
           "download": {
-            "href": "https://demo.akeneo.com/api/rest/v1/media-files/7/5/8/e/758e39d48ea7b42a55091434fd3d8b6cf3189b7f_10806799_1356.jpg/download"
+            "href": "https://recette-akeneo.focal.com/api/rest/v1/media-files/7/5/8/e/758e39d48ea7b42a55091434fd3d8b6cf3189b7f_10806799_1356.jpg/download"
           }
         },
         "code": "7/5/8/e/758e39d48ea7b42a55091434fd3d8b6cf3189b7f_10806799_1356.jpg",
@@ -38455,10 +38455,10 @@
           {
             "_link": {
               "download": {
-                "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale/download"
+                "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale/download"
               },
               "self": {
-                "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale"
+                "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale"
               }
             },
             "locale": null,
@@ -38468,10 +38468,10 @@
           {
             "_link": {
               "download": {
-                "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale/download"
+                "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale/download"
               },
               "self": {
-                "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale"
+                "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale"
               }
             },
             "locale": null,
@@ -38483,10 +38483,10 @@
           {
             "_link": {
               "download": {
-                "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale/download"
+                "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale/download"
               },
               "self": {
-                "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale"
+                "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale"
               }
             },
             "locale": null,
@@ -38669,10 +38669,10 @@
               {
                 "_link": {
                   "download": {
-                    "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale/download"
+                    "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale/download"
                   },
                   "self": {
-                    "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale"
+                    "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale"
                   }
                 },
                 "locale": null,
@@ -38682,10 +38682,10 @@
               {
                 "_link": {
                   "download": {
-                    "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale/download"
+                    "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale/download"
                   },
                   "self": {
-                    "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale"
+                    "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/print/no_locale"
                   }
                 },
                 "locale": null,
@@ -38697,10 +38697,10 @@
               {
                 "_link": {
                   "download": {
-                    "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale/download"
+                    "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale/download"
                   },
                   "self": {
-                    "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale"
+                    "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale"
                   }
                 },
                 "locale": null,
@@ -38744,7 +38744,7 @@
         "locale": null,
         "_link": {
           "download": {
-            "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale/download"
+            "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/reference-files/no_locale/download"
           }
         }
       }
@@ -38787,7 +38787,7 @@
         "scope": "ecommerce",
         "_link": {
           "download": {
-            "href": "https://demo.akeneo.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale/download"
+            "href": "https://recette-akeneo.focal.com/api/rest/v1/assets/tshirt_artemis_main_picture/variation-files/ecommerce/no_locale/download"
           }
         }
       }
