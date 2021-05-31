@@ -32899,13 +32899,6 @@
           "x-no-token": true,
           "parameters": [
             {
-              "name": "Content-type",
-              "in": "header",
-              "type": "string",
-              "description": "Equal to 'application/json' or 'application/x-www-form-urlencoded', no other value allowed",
-              "required": false
-            },
-            {
               "name": "Authorization",
               "in": "header",
               "type": "string",
